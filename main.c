@@ -10,9 +10,9 @@ int is_ok = (input_value >= 0 && input_value < 10) || (input_value >= 12 && inpu
 // 【仕様説明2】
 // 判定結果が真（OK）のときは "OK" を出力し、それ以外は "NG" を出力する
 if (is_ok) {
-printf("OK");
+printf ("OK");
 } else {
-printf("NG");
+printf ("NG");
 }
  
 return 0;
